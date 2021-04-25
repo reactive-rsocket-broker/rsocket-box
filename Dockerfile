@@ -1,4 +1,4 @@
-FROM ubuntu:hirsute
+FROM ubuntu:focal
 
 MAINTAINER "linux_china <libing.chen@gmail.com>"
 
