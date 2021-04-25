@@ -5,7 +5,7 @@ MAINTAINER "linux_china <libing.chen@gmail.com>"
 WORKDIR /root
 USER root
 
-RUN apt-get update && apt-get install -y gpgv2 bash curl jq
+RUN apt-get update && apt-get install -y gnupg2 && apt-get install -y bash curl jq
 
 RUN curl -L https://github.com/making/rsc/releases/download/0.9.0/rsc-x86_64-pc-linux -o /usr/local/bin/rsc && chmod u+x /usr/local/bin/rsc
 
