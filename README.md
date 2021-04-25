@@ -11,7 +11,7 @@ A lightweight container with RSocket and Alibaba RSocket Broker utilities.
 # How to run rsocket-box in Kubernetes?
 
 ```
-kubectl run -i --rm --tty rsocket-box --image=linuxchina/rsocket-box --restart=Never
+kubectl run -i --rm --tty rsocket-box --image=linuxchina/rsocket-box --restart=Never --image-pull-policy=Always
 ```
 
 # Commands
