@@ -8,6 +8,12 @@ A lightweight container with RSocket and Alibaba RSocket Broker utilities.
 * just command runner: https://github.com/casey/just
 * Bash completions
 
+# How to run rsocket-box in Kubernetes?
+
+```
+kubectl run -i --rm --tty rsocket-box --image=linuxchina/rsocket-box --restart=Never
+```
+
 # Commands
 
 * just brokers: list brokers
