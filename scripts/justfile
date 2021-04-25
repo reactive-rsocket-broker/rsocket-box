@@ -1,3 +1,3 @@
 ### rsocket broker list
 brokers:
-  curl http://rsocket-broker.rsocket.svc.cluster.local:9997/ops/brokers | jq
+  curl http://rsocket-broker.rsocket.svc.cluster.local:9998/ops/brokers | jq
